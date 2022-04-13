@@ -1,5 +1,5 @@
 // Declare  a global variable to read the sensor
-int sensorValue = analogRead(15);
+int sensorValue;
 
 // the setup routine runs once when you press reset:
 void setup() {
@@ -11,5 +11,6 @@ void setup() {
 void loop() 
 {
   //Prin the Sensor value on the serial port
+  sensorValue = analogRead(15);
   Serial.println(sensorValue);      
 }
