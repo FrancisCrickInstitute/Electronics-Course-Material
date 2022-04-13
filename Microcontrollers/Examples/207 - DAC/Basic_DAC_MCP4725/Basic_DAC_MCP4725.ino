@@ -1,7 +1,7 @@
 #include <Wire.h> // I2C library it comes from two-wire
 
-#define I2C_SDA 21 // Data pin
-#define I2C_SCL 22 // Clock pin
+#define I2C_SCL 21 // Clock pin
+#define I2C_SDA 22 // Data pin
 #define ADR 0x60 // Default adress for the device connected to GND is 0x60
 
 int sig;
